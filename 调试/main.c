@@ -6,10 +6,11 @@
 int main() {
 	
 	int i = 0;
-	for (; i < 100; i++) {
-		printf("%d\n", i);
+	int arr[10] = { 0 };
+	for (; i <= 12; i++) {
+		printf("always\n");
+		arr[i] = 0;
 	}
-
 	system("pause");
 	//debug 和 release两个版本的可执行程序编译
 	return NULL;
